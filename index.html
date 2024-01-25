@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Trace</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Sky blue background */
+        }
+
+        header {
+            background-color: #ffebcc; /* Sunny yellow */
+            color: #424242; /* Dark gray text color */
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #ACE1AF; /* Darker shade of sky blue */
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav button {
+            background-color: #6699CC; /* Blue */
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 2em;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .tagline {
+            font-size: 1.5em;
+            margin-top: 1em;
+            color: #87A96B; /* Sunny yellow */
+        }
+
+        .content {
+            padding: 2em;
+            text-align: center;
+        }
+
+        .section-heading {
+            font-size: 1.2em;
+            margin-bottom: 0.5em;
+            color: #424242; /* Dark gray text color */
+        }
+
+        .section-content {
+            margin-bottom: 2em;
+            line-height: 1.6;
+        }
+
+        .interactive-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .interactive-box {
+            width: 200px;
+            margin: 10px;
+            padding: 20px;
+            border: 2px solid #6699CC;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .interactive-box:hover {
+            background-color: #6699CC;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #ffebcc; /* Sunny yellow */
+            color: #424242; /* Dark gray text color */
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h1 {
+            font-family: 'Brush Script MT', cursive; /* Apply Brush Script MT font to h1 */
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1> <i>Mind Trace</i></h1>
+    </header>
+
+    <nav>
+        <button href="#">Home</button>
+        <button href="#">Language</button>
+        <button href="#">Reminders</button>
+        <button href="#">Task List</button>
+        
+        <button href="#">Fam Connect</button>
+       
+        <button href="#">Contact Us</button>
+    </nav>
+
+    <div class="hero">
+        <img src="logo.jpg" alt="Memory Haven">
+        <div class="tagline">"Embracing Each Moment, One Memory at a Time."</div>
+    </div>
+
+    <div class="content">
+        <section class="interactive-section">
+            <div class="interactive-box" onclick="location.href='#';">
+                <a href="booster.html"><h2 class="section-heading">Booster Games</h2></a>
+                <p class="section-content">Explore interactive games to boost your mind.</p>
+            </div>
+
+            <div class="interactive-box" onclick="location.href='#';">
+                <h2 class="section-heading">Memo</h2>
+                <p class="section-content">Create and manage your memos and notes.</p>
+            </div>
+            <br> <br>
+        </section>
+    </div>
+
+   
+</body>
+</html>
